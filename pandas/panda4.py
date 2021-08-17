@@ -1,9 +1,7 @@
 import pandas as pd
 import html5lib
 
-from bs4 import BeautifulSoup
-
-link = "C:\\Users\\Rupesh Kumar Dwivedi\\Desktop\\Document\\HTML\\table.html"
+link = "C:\\Users\\rupes\\Desktop\\WEBDEV\\Basic\\prog10.html"
 
 data = pd.read_html(link)
 print(data)
