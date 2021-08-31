@@ -2,6 +2,8 @@ class Student:
 
   college_name = "Galgotias University" #class attribute
 
+  #special method when instance of class is created first this method runs
+  #this method is known as constructor
   def __init__(self, name, age, branch):
       self.name = name
       self.age = age
@@ -28,7 +30,7 @@ student2 = Student("Radha", 21, "Civil Engineering")
 student3 = Student("Ritik", 21, "Computer Science and Engineering")
 
 print("Student first Information")
-student1.display()
+student1.display() # same as Student.display(student1)
 student1.liveIn("EZ Stays")
 student1.goesMarket("Pari Chowk")
 
