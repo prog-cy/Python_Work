@@ -18,6 +18,6 @@ this will not affect the class name variable
 print(ob2.name)
 print(ob1.name)
 
-DemoClass.name = "Joy"
+DemoClass.name = "Joy" #this will change the class name variable
 print(ob1.name)
 print(ob2.name)
