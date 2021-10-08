@@ -40,9 +40,9 @@ def calculator():
 		number3 = int(s[1])
 		number2 = number3
 
-		
 
-calculator()		
+if __name__ == '__main__':
+	calculator()		
 
 
 
