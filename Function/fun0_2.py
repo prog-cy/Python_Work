@@ -1,4 +1,4 @@
-# problem on functions
+# problems on functions
 """
 # 1 Write a program to print even numbers using function and range is passed from main function
 # defining function even
